@@ -1,8 +1,19 @@
-**`README.md`**:
+README.md
 
----
+**Screen-Shots** 
 
-````markdown
+Image1:
+<img width="1920" height="1350" alt="dark" src="https://github.com/user-attachments/assets/51cf40a6-edd4-4e90-9201-5da3ae56b964" />
+
+Image2:
+<img width="1920" height="1198" alt="mumbai" src="https://github.com/user-attachments/assets/c0ebca0c-7e59-4b4b-94e2-4f3dbb351ddb" />
+
+Image3:
+<img width="1920" height="1198" alt="canari" src="https://github.com/user-attachments/assets/9b173d49-598a-4104-b9e5-17df1827830f" />
+
+Image4:
+<img width="1920" height="912" alt="home-page" src="https://github.com/user-attachments/assets/9a817352-ffed-4406-b341-9aa8668a0bfa" />
+
 # 🌍 SkyCast Edge
 
 A responsive and modern weather application built with **React, styled-components, Axios, and the OpenWeather API**.  
@@ -10,7 +21,7 @@ It allows users to search for cities around the world, view detailed real-time w
 
 ---
 
-## ✨ Features
+# ✨ Features
 
 - 🔎 **Search any city** worldwide using OpenWeather API  
 - 🕒 Shows **real-time local time** for each city (24-hour format)  
@@ -29,36 +40,20 @@ It allows users to search for cities around the world, view detailed real-time w
 
 ---
 
-## 📸 Screenshots
+# 🚀 Getting Started
 
-### Home Page
-![Home Page](weather-app\Screen-Shots\home-page.png)
-
-### Weather Details
-![Mumbai Weather Details](weather-app\Screen-Shots\mumbai.png)
-![Bengaluru Weather Details](weather-app\Screen-Shots\bengaluru.png)
-![Canari Weather Details](weather-app\Screen-Shots\canari.png)
-![Singapore Weather Details](weather-app\Screen-Shots\singapore.png)
-
-### Dark Mode
-![Dark Mode](weather-app\Screen-Shots\dark.png)
-
----
-
-## 🚀 Getting Started
-
-### 1️⃣ Clone the repository
+# 1️⃣ Clone the repository
 ```bash
 git clone https://github.com/AnujG-05/weather-app
 ````
 
-### 2️⃣ Install dependencies
+# 2️⃣ Install dependencies
 
 ```bash
 npm install
 ```
 
-### 3️⃣ Set up OpenWeather API Key
+# 3️⃣ Set up OpenWeather API Key
 
 * Create an account at [OpenWeather](https://openweathermap.org/api)
 * Copy your API key
@@ -68,7 +63,7 @@ npm install
   const API_KEY = "YOUR_OPENWEATHER_API_KEY";
   ```
 
-### 4️⃣ Run the app
+# 4️⃣ Run the app
 
 ```bash
 npm start   # if using Create React App
