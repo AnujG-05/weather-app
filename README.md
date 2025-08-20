@@ -49,7 +49,7 @@ It allows users to search for cities around the world, view detailed real-time w
 
 ### 1️⃣ Clone the repository
 ```bash
-git clone https://github.com
+git clone https://github.com/AnujG-05/weather-app
 ````
 
 ### 2️⃣ Install dependencies
