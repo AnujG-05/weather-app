@@ -4,6 +4,7 @@ import axios from "axios";
 import { lightTheme, darkTheme } from "./theme";
 
 
+/* 🔑 OpenWeather API Key */
 const API_KEY = "1e9a698e6246ebd0a25c0910a9c86ec9";
 
 /* ------------------ Animations ------------------ */
@@ -382,15 +383,6 @@ function EmptyState() {
   return (
     <Card style={{ gridColumn: "1/-1", padding: "22px 18px" }}>
       <img className="icon" width="84" height="84" alt="clouds" src="https://openweathermap.org/img/wn/03d@2x.png" />
-      <div className="city">No recent cities yet</div>
-      <div className="meta">Search above and view details—then press Back to add it here.</div>
     </Card>
   );
-}
-
-/* ------------------ Helpers ------------------ */
-function formatUnix(unix, tzOffsetSec) {
-  if (!unix) return "—";
-  const date = new Date((unix + tzOffsetSec) * 1000);
-  return date.toLocaleTimeString("en-GB", { hour: "2-digit", minute: "2-digit" });
 }
