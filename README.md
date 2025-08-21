@@ -5,21 +5,12 @@ It allows users to search for cities around the world, view detailed real-time w
 
 ---
 
-## 📸 Screen-Shots
+## 🎬 DEMO - VIDEO
 
-Image1:  
-<img width="1920" height="1350" alt="dark" src="https://github.com/user-attachments/assets/51cf40a6-edd4-4e90-9201-5da3ae56b964" />
 
-Image2:  
-<img width="1920" height="1198" alt="mumbai" src="https://github.com/user-attachments/assets/c0ebca0c-7e59-4b4b-94e2-4f3dbb351ddb" />
+https://github.com/user-attachments/assets/d879b89b-8230-4319-9bee-31394d1a21e1
 
-Image3:  
-<img width="1920" height="1198" alt="canari" src="https://github.com/user-attachments/assets/9b173d49-598a-4104-b9e5-17df1827830f" />
 
-Image4:  
-<img width="1920" height="912" alt="home-page" src="https://github.com/user-attachments/assets/9a817352-ffed-4406-b341-9aa8668a0bfa" />
-
----
 
 ## ✨ Features
 
