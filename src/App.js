@@ -181,16 +181,25 @@ const Footer = styled.footer`
 /* ------------------ Hooks ------------------ */
 const useCityClock = (timezoneOffsetSeconds) => {
   const [now, setNow] = useState(Date.now());
+
   useEffect(() => {
     const id = setInterval(() => setNow(Date.now()), 1000);
     return () => clearInterval(id);
   }, []);
+
   return useMemo(() => {
     if (timezoneOffsetSeconds == null) return "";
-    const ms = now + timezoneOffsetSeconds * 1000 - new Date().getTimezoneOffset() * 60 * 1000;
-    return new Date(ms).toLocaleTimeString("en-GB", { hour: "2-digit", minute: "2-digit", second: "2-digit" });
+    // Convert "now" to UTC, then add city's timezone offset
+    const utc = new Date(now).getTime() + new Date(now).getTimezoneOffset() * 60 * 1000;
+    const cityTime = new Date(utc + timezoneOffsetSeconds * 1000);
+    return cityTime.toLocaleTimeString("en-GB", {
+      hour: "2-digit",
+      minute: "2-digit",
+      second: "2-digit",
+    });
   }, [now, timezoneOffsetSeconds]);
 };
+
 
 /* ------------------ Main ------------------ */
 export default function App() {
